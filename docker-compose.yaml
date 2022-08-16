@@ -1,0 +1,9 @@
+version: '3.8'
+services: #components of your app/project
+  dhruvapp6:
+    image: dhruvmobiweb:v1
+    build: .
+    container_name: dhruvwebc1
+    ports: 
+      - 7006:80
+    restart: always
